@@ -19,8 +19,8 @@ func main() {
 	var3 = 100
 	pointer = &var3
 
-	fmt.Println(var3, pointer)
+	fmt.Println(var3, pointer) // pointer para obter o endereço de memória
 
 	var3 = 150
-	fmt.Println(var3, *pointer) // *pointer desereferenciação
+	fmt.Println(var3, *pointer) // *pointer pra obter o valor
 }
