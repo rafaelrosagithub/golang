@@ -23,4 +23,5 @@ func main() {
 
 	var3 = 150
 	fmt.Println(var3, *pointer) // *pointer pra obter o valor
+	fmt.Println("Boa noite Marina")
 }
