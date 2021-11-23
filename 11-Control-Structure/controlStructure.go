@@ -17,7 +17,9 @@ func main() {
 
 	if anotherNumber := number; anotherNumber > 0 {
 		fmt.Println("number is greater than 0")
+	} else if number < -10 {
+		fmt.Println("number is less than -10")
 	} else {
-		fmt.Println("number is less than zero")
+		fmt.Println("between 0 and -10")
 	}
 }
