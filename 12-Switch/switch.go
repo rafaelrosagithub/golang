@@ -52,9 +52,10 @@ func dayOfTheWeek2(number int) string {
 }
 
 func main() {
-	fmt.Println("---------------  Switch ---------------")
+	fmt.Println("---------------  Switch 1 ---------------")
 	day := dayOfTheWeek1(10)
 	fmt.Println(day)
+	fmt.Println("---------------  Switch 2 ---------------")
 	day = dayOfTheWeek2(7)
 	fmt.Println(day)
 }
