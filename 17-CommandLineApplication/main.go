@@ -8,7 +8,7 @@ import (
 )
 
 func main() {
-	fmt.Println("Starting point")
+	fmt.Println("Starting main")
 
 	application := app.Generate()
 	if erro := application.Run(os.Args); erro != nil {
