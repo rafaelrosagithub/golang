@@ -1,4 +1,4 @@
-package addresses
+package adresses
 
 import "strings"
 

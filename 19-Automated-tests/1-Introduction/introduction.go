@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"test-indroduction/adresses"
+	"test-introduction/adresses"
 )
 
 func main() {
