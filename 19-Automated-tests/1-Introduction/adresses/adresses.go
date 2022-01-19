@@ -18,7 +18,7 @@ func AddressType(address string) string {
 	}
 
 	if addressHasValidType {
-		return firstWordAddress
+		return strings.Title(firstWordAddress)
 	}
 
 	return "Invalid Type"
