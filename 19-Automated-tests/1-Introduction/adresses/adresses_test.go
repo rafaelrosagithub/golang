@@ -8,6 +8,7 @@ type testScenario struct {
 }
 
 func TestAddressType(t *testing.T) {
+	t.Parallel()
 
 	testScenarios := []testScenario{
 		{"Street ABC", "Street"},
@@ -24,5 +25,12 @@ func TestAddressType(t *testing.T) {
 				scenario.expectedReturn,
 			)
 		}
+	}
+}
+
+func TestAny(t *testing.T) {
+	t.Parallel()
+	if 1 > 2 {
+		t.Error("Teste broke!!!")
 	}
 }
