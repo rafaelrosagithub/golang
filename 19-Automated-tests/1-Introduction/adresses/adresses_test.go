@@ -31,6 +31,6 @@ func TestAddressType(t *testing.T) {
 func TestAny(t *testing.T) {
 	t.Parallel()
 	if 1 > 2 {
-		t.Error("Teste broke!!!")
+		t.Error("Test broke!!!")
 	}
 }
